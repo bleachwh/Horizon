@@ -5,111 +5,144 @@ date: 2026-07-03
 lang: zh
 ---
 
-> 从 36 条内容中筛选出 5 条重要资讯。
+> 从 47 条内容中筛选出 8 条重要资讯。
 
 ---
 
-1. [Anthropic 指控阿里巴巴对 Claude 发动大规模蒸馏攻击](#item-1) ⭐️ 9.0/10
-2. [创始人财富动机与领域知识缺失导致烤箱产品半途而废](#item-2) ⭐️ 8.0/10
-3. [Wordgard：ProseMirror 作者推出的新浏览器富文本编辑器](#item-3) ⭐️ 8.0/10
-4. [本地智能权利：社区热议硬件垄断、法律限制与开源模型未来](#item-4) ⭐️ 8.0/10
-5. [CarPlay 的附加价值：一致性与以用户为中心的设计](#item-5) ⭐️ 8.0/10
+1. [Valve 开源 Steam Machine 电子墨水屏设计，支持 DIY 定制](#item-1) ⭐️ 8.0/10
+2. [Wordgard：ProseMirror 作者推出的全新浏览器富文本编辑器](#item-2) ⭐️ 8.0/10
+3. [CarPlay 是锦上添花：一致性与个性化](#item-3) ⭐️ 8.0/10
+4. [Safari 推出 MCP 服务器，助力 AI 辅助网页开发](#item-4) ⭐️ 8.0/10
+5. [crustc: entirety of `rustc`, translated to C](#item-5) ⭐️ 8.0/10
+6. [EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More](#item-6) ⭐️ 8.0/10
+7. [🤖 Anthropic 指控 🤖 阿里巴巴发动大规模“蒸馏攻击”窃取 Claude 能力  美国 AI 公司 Anthropic 致信美国参议院银行委员会，指控](#item-7) ⭐️ 8.0/10
+8. [📱 华为发布新一代 Atlas 350 加速卡：搭载昇腾 950PR，算力达 H20 近三倍  在华为中国合作伙伴大会 2026 上，华为正式发布并上市搭载全新](#item-8) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic 指控阿里巴巴对 Claude 发动大规模蒸馏攻击](https://t.me/zaihuapd/42327) ⭐️ 9.0/10
+## [Valve 开源 Steam Machine 电子墨水屏设计，支持 DIY 定制](https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/) ⭐️ 8.0/10
 
-Anthropic 指控阿里巴巴及其 AI 实验室 Qwen 在 2026 年 4 月 22 日至 6 月 5 日期间，使用近 2.5 万个欺诈账户与 Claude 进行了超过 2880 万次交互，非法提取其模型能力，这是针对该公司迄今已知最大规模的蒸馏攻击。 这一指控凸显了模型蒸馏攻击日益增长的威胁，竞争对手可能以较低成本复制前沿 AI 能力，从而削弱出口管制和知识产权保护，并可能引发 AI 行业更严格的监管和法律行动。 该攻击在 45 天内进行了 2880 万次交互，通过欺诈账户绕过使用限制。Anthropic 已向美国参议院银行委员会报告此事，表明可能涉及国家安全问题。
+Valve 已发布 Steam Machine 电子墨水显示屏的设计文件，任何人都可以使用标准组件自行制作。此举让社区能够创建自定义机箱屏幕、系统监控器等改装方案。 这种开源方式促进了硬件创新和社区参与，可能为其他公司分享附加组件设计而非将其封锁树立先例。它赋予用户个性化设备的能力，并可能催生更广泛的兼容配件生态。 该显示屏采用标准的 Adafruit 5.83 英寸电子墨水面板，易于采购和复制。开源发布可能包括 CAD 文件、固件以及与 2026 年 6 月重新发布的 Steam Machine 的集成细节。
 
-telegram · zaihuapd · 7月3日 06:21
+hackernews · ahlCVA · 7月3日 13:01 · [社区讨论](https://news.ycombinator.com/item?id=48774518)
 
-**背景**: 模型蒸馏是一种让较小的“学生”模型通过模仿较大“教师”模型的输出来复制其性能的技术。虽然合法用于提高效率，但蒸馏攻击涉及未经授权、大规模查询专有模型以克隆其能力，通常违反服务条款。Anthropic 此前曾支持出口管制，以防止此类攻击削弱美国在 AI 领域的优势。
+**背景**: Steam Machine 是 Valve 推出的一款运行 SteamOS 的紧凑型游戏 PC，最初于 2015 年推出后停产，随后于 2026 年 6 月 29 日发布了全新版本。该设备配备电子墨水屏，用于显示系统信息或自定义图案。开源硬件设计意味着 Valve 以宽松许可向社区提供复制或修改组件所需的文件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">Detecting and preventing distillation attacks \ Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Model_distillation">Model distillation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Steam_Machine">Steam Machine</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI security`, `#model distillation`, `#Anthropic`, `#Alibaba`, `#intellectual property`
+**社区讨论**: 社区反应积极，称赞 Valve 的开放态度，并希望更多公司效仿。用户指出使用标准 Adafruit 面板简化了 DIY 项目，有人分享了类似项目，如将旧手机用作系统监视器。也有人好奇这种善意如何影响 Valve 的业绩。
+
+**标签**: `#open-source`, `#hardware`, `#Valve`, `#e-ink`, `#community`
 
 ---
 
 <a id="item-2"></a>
-## [创始人财富动机与领域知识缺失导致烤箱产品半途而废](https://weli.dev/blog/half-baked-product/) ⭐️ 8.0/10
+## [Wordgard：ProseMirror 作者推出的全新浏览器富文本编辑器](https://wordgard.net/) ⭐️ 8.0/10
 
-一篇博客文章讲述了一家初创公司的失败案例：创始人以逐利为动机且缺乏行业专长，导致烤箱产品不成熟，暴露了业务、工程和销售之间的脱节。 这个故事反映了初创企业常见的陷阱，强调创始人的动机和深厚的领域知识对产品成功至关重要，跨职能协作对于避免制造无人问津的产品必不可少。 这篇在 Hacker News 上获得 958 分和 286 条评论的文章说明，创始人专注于财富导致不切实际的期望，而工程师和销售人员各自为政，最终生产出不符合市场需求的产品。
+ProseMirror 的创建者发布了 Wordgard，一款新的浏览器内富文本编辑器。它与 ProseMirror 共享许多概念，但属于独立项目，没有直接的迁移路径。 ProseMirror 是 ChatGPT、Gemini 和 Tiptap 等产品中编辑器的核心基础；其创建者推出的新编辑器可能带来创新，并影响下一代 Web 文本编辑的发展方向，尤其是在 ProseMirror 开发可能放缓的情况下。 Wordgard 与 ProseMirror 共享许多概念，但不向后兼容；从 ProseMirror 迁移需要大量工作。该编辑器的设计由 Kamilastankiewicz 操刀，其优雅的美学风格受到关注。
 
-hackernews · weli · 7月3日 08:23 · [社区讨论](https://news.ycombinator.com/item?id=48772388)
+hackernews · indy · 7月3日 08:50 · [社区讨论](https://news.ycombinator.com/item?id=48772573)
 
-**背景**: 初创企业失败往往源于激励不一致和缺乏领域专长。仅受经济利益驱动的创始人可能忽视来自深厚行业经验的对客户问题的细致理解。技术、业务和销售职能之间的脱节可能导致产品存在技术缺陷或无法销售。
+**背景**: ProseMirror 是一个开源、久经考验的富文本编辑器框架，因其性能和灵活性被许多主流 Web 应用采用。它支持协同编辑和自定义文档模式，但学习曲线较陡。Wordgard 由同一作者开发，可能为 Web 富文本编辑提供新的思路。
 
-**社区讨论**: 评论者大多认同文章观点，指出逐利型创始人常因缺乏领域专长而失败。一些人强调这个问题几十年来一直存在，另一些人则指出角色之间的脱节。有人开玩笑说在其他行业也有类似经历，还有评论者希望听到销售人员的视角。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/ProseMirror">ProseMirror</a></li>
+<li><a href="https://prosemirror.net/">ProseMirror</a></li>
 
-**标签**: `#startups`, `#product development`, `#domain expertise`, `#entrepreneurship`, `#software engineering`
+</ul>
+</details>
+
+**社区讨论**: 社区既兴奋又担忧，指出 ProseMirror 的广泛使用使其潜在停滞令人不安。许多人讨论了从 ProseMirror 到 Wordgard 缺乏升级路径的问题，以及迁移现有项目的挑战。编辑器的视觉设计获得好评，一些用户还强调了文档模式中更好的静态类型支持需求。
+
+**标签**: `#rich-text-editor`, `#web-development`, `#ProseMirror`, `#text-editing`, `#open-source`
 
 ---
 
 <a id="item-3"></a>
-## [Wordgard：ProseMirror 作者推出的新浏览器富文本编辑器](https://wordgard.net/) ⭐️ 8.0/10
+## [CarPlay 是锦上添花：一致性与个性化](https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts) ⭐️ 8.0/10
 
-ProseMirror 的作者发布了 Wordgard，一款新的浏览器内富文本编辑器，它与 ProseMirror 共享许多概念，但属于独立项目，没有直接的升级路径。 ProseMirror 是许多主流网页文本编辑器（如 ChatGPT 和 Gemini）的底层基础，其作者的新项目可能影响网页文本编辑的未来。社区对 ProseMirror 是否仍在积极开发表示担忧。 Wordgard 与 ProseMirror 共享概念，但切换需要大量工作，并非直接替代品。该编辑器的设计受到好评，可能解决了文档模式缺乏静态类型等局限性。
+一篇新文章指出，CarPlay 是一个附加功能，通过界面一致性和个性化提升驾驶体验，这一观点得到了社区评论和统计数据的支持，数据显示 79% 的美国购车者将其视为必备功能。 这凸显了以用户为中心的软件在购车决策中的关键作用，CarPlay 的跨车辆一致性使苹果对购车者具有重大影响力，并可能重塑车载信息娱乐标准。 关键细节包括作者拒绝购买不支持 CarPlay 的汽车、CarPlay 能根据手机设置镜像语言方向等个性化功能，以及苹果声称 98% 的美国新车已预装 CarPlay。
 
-hackernews · indy · 7月3日 08:50 · [社区讨论](https://news.ycombinator.com/item?id=48772573)
+hackernews · sprawl_ · 7月3日 01:02 · [社区讨论](https://news.ycombinator.com/item?id=48769397)
 
-**背景**: ProseMirror 是一个开源库，用于构建支持协同编辑和自定义文档模式的富文本编辑器。它被广泛应用于 ChatGPT、Gemini 和 Tiptap 等产品中。其作者 Marijn Haverbeke 也以 CodeMirror 闻名。Wordgard 似乎是同一作者推出的新编辑器，可能旨在解决 ProseMirror 的一些不足。
+**背景**: CarPlay 是苹果的车载界面，将简化的 iPhone 体验投射到车辆仪表盘上，让驾驶者能安全使用导航、音乐和通讯应用。许多汽车制造商提供自己的信息娱乐系统，但 CarPlay 提供了与手机同步的熟悉替代方案。近期，一些汽车制造商开始抵制 CarPlay，以保持对用户数据和车内体验的控制。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://prosemirror.net/">ProseMirror</a></li>
-<li><a href="https://github.com/ProseMirror/prosemirror">GitHub - ProseMirror/prosemirror: The ProseMirror WYSIWYM ... ProseMirror - GitHub ProseMirror Docs ProseMirror | Tiptap Editor Docs prosemirror-view - npm prosemirror · PyPI</a></li>
+**社区讨论**: 社区评论绝大多数支持文章观点，强调 CarPlay 的跨车辆一致性、个性化（如语言方向）以及 79% 的美国购车者将其视为必备功能。少数人表示无所谓，但共识是 CarPlay 的附加价值是关键差异化因素。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者对 Wordgard 的动机感到好奇，并指出从 ProseMirror 升级的路径缺失。有人称赞其设计，也有人讨论静态类型等挑战。鉴于 ProseMirror 的广泛使用，人们担心它可能不再积极开发。
-
-**标签**: `#rich-text-editor`, `#prosemirror`, `#web-development`, `#frontend`, `#text-editing`
+**标签**: `#CarPlay`, `#user experience`, `#automotive technology`, `#Apple`, `#infotainment`
 
 ---
 
 <a id="item-4"></a>
-## [本地智能权利：社区热议硬件垄断、法律限制与开源模型未来](https://righttointelligence.org/) ⭐️ 8.0/10
+## [Safari 推出 MCP 服务器，助力 AI 辅助网页开发](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/) ⭐️ 8.0/10
 
-Hacker News 上关于“本地智能权利”网站的讨论，引发了人们对硬件垄断、潜在法律限制以及强大开源 AI 模型未来可用性的担忧。 这场辩论凸显了一个关键的新兴问题：随着 AI 能力增强，对硬件和软件的控制可能集中，从而威胁用户自主权、隐私和开源 AI 生态。 评论者指出，Nvidia 对数据中心的侧重可能限制消费级 GPU 供应；但也有人提到 OEM 厂商正在打造本地 AI 硬件，以及地缘政治因素可能限制开源模型的发布。
+Safari 发布了官方 MCP 服务器，使 AI 助手能够自动化浏览器任务和测试，与 Chrome 和 Firefox 一同支持模型上下文协议。 这使开发者能够直接在 Safari 中使用 AI 工具进行跨浏览器测试和自动化，提升工作流程效率，并确保在主流浏览器中的兼容性。 该服务器利用 Anthropic 推出的开放标准模型上下文协议（MCP），为 AI 系统提供标准化接口，以与 Safari 的网页检查器和自动化功能交互。
 
-hackernews · thoughtpeddler · 7月2日 23:54 · [社区讨论](https://news.ycombinator.com/item?id=48768951)
+hackernews · coloneltcb · 7月3日 01:37 · [社区讨论](https://news.ycombinator.com/item?id=48769639)
 
-**背景**: 本地 AI 指在用户设备上直接运行人工智能模型，具有低延迟、隐私性强和离线可用等优势。这场讨论由一个倡导本地智能权利的网站引发，背景是人们对 AI 集中化控制的担忧日益加剧。
+**背景**: MCP 是 Anthropic 于 2024 年 11 月推出的开放协议，用于标准化 AI 模型与外部工具和数据的连接方式，已被 OpenAI 和 Google DeepMind 等主要 AI 提供商采用。浏览器 MCP 服务器允许 AI 助手执行诸如检查 DOM、运行 JavaScript 和截取屏幕截图等操作，从而简化开发和测试流程。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://localai.io/">LocalAI</a></li>
-<li><a href="https://www.lenovo.com/us/en/knowledgebase/local-ai-models-a-comprehensive-guide/">Local AI Models: A Comprehensive Guide | Lenovo US</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区观点不一：有人担心 Nvidia 的硬件垄断，有人认为 OEM 厂商将保障本地 AI 硬件供应，还有人担忧地缘政治利益可能导致强大开源模型不再公开。有评论指出，讨论中未提及具体的法律行动。
+**社区讨论**: 整体反响积极，用户对将 Safari 集成到 AI 辅助工作流中感到兴奋。有人指出 Chrome 的 MCP 服务器自 2025 年 11 月起已可用，且比旧的 Web 驱动更快。也有人将 MCP 服务器与 Playwright 进行比较，一位用户建议使用 Playwright-CLI 作为更快的替代方案。
 
-**标签**: `#AI`, `#local intelligence`, `#hardware`, `#policy`, `#open source`
+**标签**: `#web-development`, `#MCP`, `#Safari`, `#browser-automation`, `#AI`
 
 ---
 
 <a id="item-5"></a>
-## [CarPlay 的附加价值：一致性与以用户为中心的设计](https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts) ⭐️ 8.0/10
+## [crustc: entirety of `rustc`, translated to C](https://github.com/FractalFir/crustc) ⭐️ 8.0/10
 
-一篇博客文章和 Hacker News 讨论认为，CarPlay 的真正价值在于其附加性，源于一致的界面和以用户为中心的设计，使其成为购车者的必备功能。 这凸显了软件体验和生态系统整合正成为汽车行业的关键差异化因素，可能迫使制造商采用 CarPlay，否则将面临失去客户的风险。 讨论指出，CarPlay 跨车辆的一致性和个性化功能（如支持不同界面方向）是关键优势，但也有用户认为手机导航已足够。
+A project that transpiles the entire Rust compiler to C, enabling Rust compilation on platforms without LLVM support and sparking discussion on bootstrapping and compiler backdoors.
 
-hackernews · sprawl_ · 7月3日 01:02 · [社区讨论](https://news.ycombinator.com/item?id=48769397)
+hackernews · Philpax · 7月2日 22:57 · [社区讨论](https://news.ycombinator.com/item?id=48768464)
 
-**背景**: CarPlay 是苹果的车载系统，可将 iPhone 功能镜像到车辆显示屏上，让驾驶者更安全地使用地图、音乐和信息等应用。它与 Android Auto 及汽车制造商自带的娱乐系统竞争。部分车厂曾不愿完全采用，但消费者需求正在改变行业趋势。
+**标签**: `#rust`, `#compiler`, `#transpiler`, `#c`, `#bootstrapping`
 
-**社区讨论**: 评论者普遍认为，CarPlay 跨车辆的一致性和个性化是其最大优势，有用户举例一对夫妇使用不同界面方向。引用苹果数据称 79%的美国购车者只考虑支持 CarPlay 的车型。少数反对者认为手机支架已足够，CarPlay 并非必需。
+---
 
-**标签**: `#carplay`, `#user-experience`, `#automotive`, `#apple`, `#technology-adoption`
+<a id="item-6"></a>
+## [EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More](https://newsletter.semianalysis.com/p/ectc2026) ⭐️ 8.0/10
+
+A roundup of advanced semiconductor packaging and interconnect technologies presented at ECTC 2026, including Intel's EMIB-T roadmap, custom HBM, HBM4 packaging challenges, microfluidic cooling, and photonic interconnects.
+
+rss · Semianalysis · 7月2日 17:25
+
+**标签**: `#semiconductor packaging`, `#HBM`, `#photonic interconnects`, `#microfluidic cooling`, `#ECTC 2026`
+
+---
+
+<a id="item-7"></a>
+## [🤖 Anthropic 指控 🤖 阿里巴巴发动大规模“蒸馏攻击”窃取 Claude 能力  美国 AI 公司 Anthropic 致信美国参议院银行委员会，指控](https://t.me/zaihuapd/42327) ⭐️ 8.0/10
+
+Anthropic accuses Alibaba of using 25,000 fraudulent accounts to conduct 28.8 million interactions in a massive distillation attack to replicate Claude's capabilities.
+
+telegram · zaihuapd · 7月3日 06:21
+
+**标签**: `#AI`, `#model distillation`, `#Anthropic`, `#Alibaba`, `#cybersecurity`
+
+---
+
+<a id="item-8"></a>
+## [📱 华为发布新一代 Atlas 350 加速卡：搭载昇腾 950PR，算力达 H20 近三倍  在华为中国合作伙伴大会 2026 上，华为正式发布并上市搭载全新](https://t.me/zaihuapd/42329) ⭐️ 8.0/10
+
+Huawei unveils the Atlas 350 AI accelerator featuring the Ascend 950PR, claiming 2.87x the performance of Nvidia's H20 and 112 GB HBM, enabling single-card inference for 70B-parameter models.
+
+telegram · zaihuapd · 7月3日 08:35
+
+**标签**: `#AI hardware`, `#Huawei`, `#Ascend`, `#accelerator`, `#HBM`
 
 ---

@@ -127,14 +127,14 @@
       "period": "past_24_hours",
       "languages": ["All", "Python", "TypeScript", "Rust", "Jupyter Notebook", "Go"],
       "keywords": ["ai", "llm", "agent", "rag", "skill", "workflow", "mcp", "genai", "openai", "claude", "copilot", "agentic", "tool", "automation"],
-      "min_stars": 20,
-      "max_items": 10
+      "min_stars": 10,
+      "max_items": 15
     }
   },
   "filtering": {
     "ai_score_threshold": 5.5,
     "time_window_hours": 24,
-    "max_items": 5
+    "max_items": 8
   },
   "webhook": {
     "enabled": true,

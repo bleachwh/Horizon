@@ -2,9 +2,9 @@
   "version": "1.0",
   "ai": {
     "provider": "openai",
-    "model": "gpt-5.4",
+    "model": "deepseek-v4-pro",
     "api_key_env": "OPENAI_API_KEY",
-    "base_url": "https://sub2api.yierbubu.ggff.net/v1",
+    "base_url": "https://api.svips.org/v1",
     "temperature": 0.3,
     "max_tokens": 4096,
     "throttle_sec": 0,

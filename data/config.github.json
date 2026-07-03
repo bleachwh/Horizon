@@ -19,7 +19,7 @@
       {
         "type": "user_events",
         "username": "karpathy",
-        "enabled": true
+        "enabled": false
       },
       {
         "type": "repo_releases",
@@ -37,6 +37,24 @@
         "type": "repo_releases",
         "owner": "triton-lang",
         "repo": "triton",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "langchain-ai",
+        "repo": "langchain",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "microsoft",
+        "repo": "autogen",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "crewAIInc",
+        "repo": "crewAI",
         "enabled": true
       }
     ],
@@ -103,6 +121,14 @@
           "fetch_limit": 20
         }
       ]
+    },
+    "ossinsight": {
+      "enabled": true,
+      "period": "past_24_hours",
+      "languages": ["All", "Python", "TypeScript", "Rust", "Jupyter Notebook", "Go"],
+      "keywords": ["ai", "llm", "agent", "rag", "skill", "workflow", "mcp", "genai", "openai", "claude", "copilot", "agentic", "tool", "automation"],
+      "min_stars": 20,
+      "max_items": 10
     }
   },
   "filtering": {
